@@ -55,6 +55,6 @@ MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 
 <!-- Stack Icon Refernces -->
 
-[python]: /img/stack/python.png
-[opencv]: /img/stack/opencv.png
+[python]: /img/python.png
+[opencv]: /img/opencv.png
 
