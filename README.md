@@ -59,14 +59,12 @@ GIF Images
 ## 배운 점 & 아쉬운 점
 
 <p align="justify">
-
+  - opencv의 imread() 함수는 sys.stdin.readline()으로 입력받은 값을 정상적으로 읽어들이지 못 함!!
+  - 함수들이 너무 중구난방이라는 느낌이 든다 다음 프로젝트는 코드를 짜기 전 좀 더 체계적으로 설계 후 개발에 들어가면 좋을듯함.
+  - 다음에는 장고와 콜라보를 통해 폰트 생성 기능이 탑재된 웹사이트를 만들어볼 생각이다
 </p>
 
-<br>
 
-## 라이센스
-
-MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 
 <!-- Stack Icon Refernces -->
 
