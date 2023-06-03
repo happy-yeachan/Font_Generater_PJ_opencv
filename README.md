@@ -23,9 +23,9 @@ GIF Images
 
 ## 기술 스택
 
-| Python | opencv |  React   |  Node   |
-| :--------: | :--------: | :------: | :-----: |
-|   ![python]    |   ![opencv]    | ![react] | ![node] |
+| Python | opencv | 
+| :--------: | :--------: | 
+|   ![python]    |   ![opencv]    |
 
 <br>
 
@@ -55,7 +55,6 @@ MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 
 <!-- Stack Icon Refernces -->
 
-[python]: /images/stack/python.png
-[opencv]: /images/stack/opencv.png
-[react]: /images/stack/react.svg
-[node]: /images/stack/node.svg
+[python]: /img/stack/python.png
+[opencv]: /img/stack/opencv.png
+
