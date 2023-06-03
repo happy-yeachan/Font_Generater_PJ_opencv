@@ -38,6 +38,7 @@ def Make_jungsung(jungsung, filename): # 중성 생성
     elif str(jungsung[0]) == 'P':
         tmp = cv2.imread('./' + filename +'/pp.jpg')
         src = cv2.resize(tmp, (50,50))
+    
     else:
         if len(jungsung) == 1:
             tmp = cv2.imread('./' + filename +'/'+ str(jungsung[0]) +'.jpg')
@@ -143,7 +144,7 @@ def make_hangul(word, filename): # 글자 생성 함수
         tmp2 = cv2.hconcat([src, ju[1]])
         src = cv2.resize(tmp2, (50,50))
         if len(jongsung) != 0:
-            jo = Make_jongsung(jongsung)
+            jo = Make_jongsung(jongsung, filename)
             tmp3 = cv2.vconcat([src, jo])
             src = cv2.resize(tmp3, (50,50))
     return src
@@ -179,10 +180,20 @@ def merge(li, filename):
             src.append(make_hangul(i, filename))
         else:
             src.append(black_canvas)
-
-    k = cv2.getStructuringElement(cv2.MORPH_RECT, (3,3))
     tmp = cv2.hconcat(src)
-    last = cv2.erode(tmp, k)
-    return src
+    return tmp
 
 
+# print("출력을 원하는 문장을 입력하세요.\n ->", end=" ")
+# src = []
+# word = sys.stdin.readline()
+
+# word = list(h_to_e.kor2eng(word)) # 한타 -> 영타 변환
+
+# li = tr(word) # 문자별로 슬라이싱
+
+# src = merge(li, 'yeachan_font') # 문자 생성 및 병합
+
+# cv2.imshow('last',  src)
+# cv2.waitKey()
+# cv2.destroyAllWindows()

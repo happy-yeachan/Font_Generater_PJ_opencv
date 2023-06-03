@@ -3,16 +3,17 @@ from J_M_gather import *
 from h_to_e import *
 import sys
 import cv2
+import numpy as np
 
 print("자음 모음을 적은 파일이 저장된 폴더명을 입력하세요.\n ->", end=" ")
-filename = str(sys.stdin.readline())
+filename = str(input())
 
-ja_list = ['r', 'rr', 's', 'e', 'ee', 'f', 'a', 'q', 'qq', 't', 'tt', 'd', 'w', 'ww', 'c', 'z', 'x', 'v', 'g']
+ja_list = ['r', 's', 'e', 'f', 'a', 'q', 't', 'd', 'w', 'c', 'z', 'x', 'v', 'g', 'rr', 'ee', 'qq', 'tt', 'ww']
 mo_list = ['k', 'i', 'j', 'u', 'h', 'y', 'n', 'b', 'm', 'l', 'o', 'oo', 'p', 'pp']
 
 
-gather('ja_list', ja_list) # 자음 인식 및 저장
-gather('mo_list', mo_list) # 모음 인식 및 저장
+gather('ja_list', ja_list, filename) # 자음 인식 및 저장
+gather('mo_list', mo_list, filename) # 모음 인식 및 저장
 
 
 print("출력을 원하는 문장을 입력하세요.\n ->", end=" ")
