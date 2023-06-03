@@ -2,8 +2,9 @@
 
 <p align="center">
   <br>
-  <img src="./images/common/logo-sample.jpeg">
+  <img src="./img/img1.png">
   <br>
+  <img src="./img/img2.png">
 </p>
 
 목차
