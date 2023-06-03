@@ -45,8 +45,8 @@ def gather(j_or_m, tmp_list, filename):
 
     src = cv2.rotate(src, cv2.ROTATE_90_COUNTERCLOCKWISE)
     dst = cv2.rotate(dst, cv2.ROTATE_90_COUNTERCLOCKWISE)
-    src = cv2.resize(src, (1000,500))
-    dst = cv2.resize(dst, (1000,500))
+    src = cv2.resize(src, (1200,300))
+    dst = cv2.resize(dst, (1200,300))
 
     cv2.imshow('src',  src)
     cv2.imshow('dst',  dst) 
