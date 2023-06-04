@@ -53,7 +53,6 @@
   - 다음에는 장고와 콜라보를 통해 폰트 생성 기능이 탑재된 웹사이트를 만들어볼 계획이다.<br>
 <br>
 <br>
-![HitCount](http://hits.dwyl.com/dus001228/Font_Generater_PJ_opencv.svg)
 
 
 <!-- Stack Icon Refernces -->
