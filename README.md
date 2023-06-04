@@ -16,7 +16,6 @@
 </p>
 
 <p align="center">
-GIF Images
 </p>
 
 <br>
