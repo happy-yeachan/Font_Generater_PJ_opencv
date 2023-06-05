@@ -22,6 +22,13 @@
 
 <br>
 
+## 사전 준비
+```
+     pip install opencv
+     pip install numpy
+```
+
+
 ## 구현 기능
 
 ### 기능 1 - J_M_gather.py
